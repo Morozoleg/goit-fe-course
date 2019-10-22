@@ -2,7 +2,7 @@ html {
     box-sizing: border-box;
 }
 *, 
-*::before
+*::before,
 *::after {
     box-sizing: inherit;
 }
@@ -21,14 +21,13 @@ body {
 
 .main-navigation {
     padding: 0px;
-    width: 570px;
-    margin: 0 auto;
-    margin-bottom: 95px;
+    margin: 0 auto 95px;
 }
 
 .main-navigation-list {
     padding: 0px;
     margin: 0px;
+    text-align: center;
 }
 
 .navigation-list-item {
@@ -61,12 +60,13 @@ margin-right: 0;
 }
 
 .main-content-article:nth-child(2n) {
-    margin: 0;
+    margin-right: 0px;
 }
 
 .article-category {
     font-size: 14px;
     line-height: normal;
+    font-weight: 300;
     margin-top: 30px;
     color: #b4ad9e;
     text-transform: uppercase;
@@ -100,4 +100,5 @@ margin-right: 0;
     color: #626262;
     background-color: white;
     border: thin solid #626262;
+    cursor: pointer;
 }
