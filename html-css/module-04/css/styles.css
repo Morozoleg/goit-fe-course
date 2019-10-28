@@ -25,7 +25,9 @@ body {
 }
 .logo {
 text-transform: uppercase;
-font: 300 30px/32px;
+font-size: 30px;
+line-height: 32px;
+font-weight: 300;
 text-decoration: none;
 color: #555252;
 float: left;
