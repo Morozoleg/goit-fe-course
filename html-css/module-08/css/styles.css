@@ -83,10 +83,12 @@ a {
 
 .find-partner {
   font: 700 14px/17px "Montserrat", sans-serif;
+  max-width: 278px;
   color: #fff;
   padding: 12px 0;
   border-radius: 25px;
   background-color: #ff4e50;
+  margin: 0 auto;
 }
 
 .partners-list {
