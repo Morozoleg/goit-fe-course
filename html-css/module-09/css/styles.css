@@ -170,12 +170,16 @@ a {
     padding: 20px 0 110px;
   }
 
+  .navigation-box {
+    text-align: center;
+  }
+
   .logo {
     padding-bottom: 24px;
   }
 
   .title-box {
-    padding: 222px 0 136x;
+    padding: 222px 0 0;
   }
 
   .title {
